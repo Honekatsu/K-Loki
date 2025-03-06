@@ -27,7 +27,7 @@ storage_config:
 #    shared_store: s3
   aws:
     s3: http://172.20.5.15:9000/loki
-    access_key_id: ${MinIO_ROOT_USER}
+    access_key_id: ${MINIO_ROOT_USER}
     secret_access_key: ${MINIO_ROOT_PASSWORD}
     s3forcepathstyle: true
     insecure: true
