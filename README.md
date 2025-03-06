@@ -5,4 +5,4 @@ Flatcar Linux上に構築したLokiの設定ファイル
 ## 新規作成時にやること
 
 1. GitHubのDeploy keysを設定
-2. .loki.envの作成(minio_key_id,minio_secret_access_key)
+2. minio_loki/.minio_loki.envの作成(MINIO_ROOT_USER,MINIO_ROOT_PASSWORD)
